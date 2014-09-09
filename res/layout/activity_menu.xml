@@ -1,0 +1,168 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MenuActivity"
+    android:background="#0000FF" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+    	
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50sp"
+		    android:orientation="horizontal" >
+	
+		    <Button
+		        android:id="@+id/crossroads_breakfast"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Crossroads Breakfast"
+		        android:textSize="12sp"
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00" />
+		
+		    <Button
+		        android:id="@+id/crossroads_lunch"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Crossroads Lunch" 
+		    	android:textSize= "12sp"
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00" />
+		    
+		    <Button
+		        android:id="@+id/crossroads_dinner"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Crossroads Dinner" 
+		    	android:textSize= "12sp" 
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00"/>
+	    
+	    </LinearLayout>
+	    
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50sp"
+		    android:orientation="horizontal" >
+	
+		    <Button
+		        android:id="@+id/cafe3_breakfast"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Cafe 3 Breakfast"
+		        android:textSize="12sp"
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00" />
+		
+		    <Button
+		        android:id="@+id/cafe3_lunch"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Cafe 3 Lunch" 
+		    	android:textSize= "12sp"
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00" />
+		    
+		    <Button
+		        android:id="@+id/cafe3_dinner"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Cafe 3 Dinner" 
+		    	android:textSize= "12sp"
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00" />
+	    
+	    </LinearLayout>
+    
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50sp"
+		    android:orientation="horizontal" >
+	
+		    <Button
+		        android:id="@+id/clark_kerr_breakfast"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Clark Kerr Breakfast"
+		        android:textSize="12sp"
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00" />
+		
+		    <Button
+		        android:id="@+id/clark_kerr_lunch"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Clark Kerr Lunch" 
+		    	android:textSize= "12sp" 
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00"/>
+		    
+		    <Button
+		        android:id="@+id/clark_kerr_dinner"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Clark Kerr Dinner" 
+		    	android:textSize= "12sp"
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00" />
+	    
+	    </LinearLayout>
+		
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50sp"
+		    android:orientation="horizontal" >
+	
+		    <Button
+		        android:id="@+id/foothill_breakfast"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Foothill Breakfast"
+		        android:textSize="12sp" 
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00"/>
+		
+		    <Button
+		        android:id="@+id/foothill_lunch"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Foothill Lunch" 
+		    	android:textSize= "12sp" 
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00"/>
+		    
+		    <Button
+		        android:id="@+id/foothill_dinner"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="match_parent"
+		        android:text="Foothill Dinner" 
+		    	android:textSize= "12sp" 
+		        android:layout_margin="2sp"
+		        android:background="#FFFF00"/>
+	    
+	    </LinearLayout>
+		
+	</LinearLayout>
+    
+
+</ScrollView>
