@@ -2,8 +2,10 @@ package com.abhinavgianey.caldining;
 
 import java.util.Calendar;
 
+/**
 import com.example.notificationtest.MainActivity;
 import com.example.notificationtest.MyReceiver;
+**/ 
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -37,6 +39,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		alerts = (Button) findViewById(R.id.alerts);
 		alerts.setOnClickListener(this);
 		SharedPreferences prefs = getSharedPreferences("1",0);
+		/**
         boolean isFirstTime = prefs.getBoolean("firstTime", true);
       
         if (isFirstTime) {
@@ -63,6 +66,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	        alarmManager.setRepeating(AlarmManager.RTC, calendar.getTimeInMillis(), 1000*60*5, pendingIntent);
 	        
         }
+        **/
 		if (MenuManager.isNetworkAvailable(getApplicationContext())) {
 			MenuManager.setMenu();
 		} else {

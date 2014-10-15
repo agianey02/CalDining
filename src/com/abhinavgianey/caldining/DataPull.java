@@ -13,7 +13,7 @@ public class DataPull {
     
     public static String mapHelper(int diner) {
         String ret;
-		switch (diner) {
+    	switch (diner) {
 			case 1: ret =  "Crossroads Breakfast";
                     break;
 			case 2: ret = "Cafe 3 Breakfast";
@@ -91,7 +91,7 @@ public class DataPull {
         			hash2.put(line.substring(start + 23, end).trim().toLowerCase(), newList2);
         		}
         	}
-        	if (line.contains("Breakfast") || line.contains("Lunch") || line.contains("Dinner")) {
+        	if (line.contains("<b>Breakfast") || line.contains("Lunch") || line.contains("Dinner")) {
         		search = true;
         		diners++;
         	}
@@ -102,8 +102,6 @@ public class DataPull {
         Hashtable<String, ArrayList<String>>[] temp = pullData();
         Hashtable<String, ArrayList<String>> temp1 = temp[0];
         ArrayList<String> temp2 = temp1.get("Crossroads Dinner");
-        for (String s: temp2) {
-            System.out.println(s);
-        }
+        System.out.println(temp1.toString());
     }
 }
